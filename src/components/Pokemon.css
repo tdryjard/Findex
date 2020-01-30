@@ -1,0 +1,158 @@
+.Search {
+    z-index: 10;
+    height: 100px;
+    display: block;
+}
+
+.pokemonPage {
+    margin: 0 5px;
+    padding: 0;
+    text-align: center;
+    background-color: transparent;
+}
+
+h3{
+    margin-top: 2px;
+    padding: 0;
+    text-align: center;
+    text-transform: capitalize;
+    color: #BE0D1F;
+    background-color: white;
+    border: #BE0D1F solid 1px;
+    border-radius: 20px;
+    font-size : 1em;
+}
+
+.headPokemon{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    justify-content: space-evenly;
+    color: black;
+}
+.main img{
+    margin: 0 auto;
+    height: 75px;
+    width: auto;
+}
+
+.abilities{
+    padding: 0px 0 10px 0;
+    color: black;
+    text-transform: capitalize;
+}
+
+.types{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse; /* parce que les types */
+    margin: 0;
+    padding: 0;
+}
+.types img{
+    width: 60px;
+    height: auto;
+}
+
+.moves{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.active .moves{
+    margin: 5px 0 30px 0;
+}
+
+.active .moves div{
+    width: 50%;
+    text-align: center;
+    padding: 5px 0;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+}
+
+.active .buttonMoves{
+    display: inline-block;
+    background-color: #BE0D1F;
+    color: white;
+    margin: auto;
+    padding: 0 7px;
+    transform: translateY(-50%);
+    text-align: center;
+    border: white solid 2px;
+    border-radius: 20px;
+}
+
+.active{
+    background-color: #BE0D1F;
+    color: white;
+    border-radius: 5px;
+}
+
+.buttonMoves:hover{
+    background-color: white;
+    color: #BE0D1F;
+    cursor: pointer;
+}
+
+.moves .buttonMoves:hover{
+    background-color: #BE0D1F;
+    color: white;
+}
+
+.stat{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.baseStat,
+.combatStat{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    padding: 0 5px;
+    text-transform: capitalize;
+}
+
+.combatStat{
+    text-align: right;
+    margin-right: 15px;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+.statName,
+.statValue{
+    color: #BE0D1F;
+    padding: 2px 0;
+}
+
+.informations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.buttonMoves:hover:after{
+    content: " ! ";
+}

@@ -1,0 +1,34 @@
+form{
+    display: flex;
+    justify-content: start;
+}
+
+.SearchButton{
+    background-color: transparent;
+    height: 50px;
+    margin-right: 5%;
+    margin-top: 1%;
+    width: 50px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: transparent;
+    outline: none;
+}
+
+.SearchBar{
+    border: 3px solid #BE0D1F;
+    border-radius:10px 10px ;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: auto;
+    height: 20px;
+    width: 70%;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}

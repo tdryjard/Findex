@@ -1,0 +1,22 @@
+.description{
+    background-color: transparent;
+    color: black;
+    margin: 0 0 0 5px;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 65%;
+}
+
+.description p{
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+
+.NotFound{
+    color: #BE0D1F;
+    background-color: white;
+    border: 2px solid #BE0D1F;
+    border-radius: 20px;
+    text-align: center;
+}

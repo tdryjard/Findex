@@ -1,0 +1,19 @@
+.evolutions{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+.evolution{
+    margin: 0;
+    width: 100%;
+}
+
+.evolution img{
+    width: auto;
+    height: 50px;
+    margin: 0 12px;
+    cursor: pointer;
+}
